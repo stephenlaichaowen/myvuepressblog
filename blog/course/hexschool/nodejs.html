@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>NodeJS 前後端開發實戰 | 我的部落格</title>
+    <meta name="description" content="人類因學習而偉大">
+    <link rel="icon" href="https://cdn-images-1.medium.com/max/1200/1*0f7Vy50KTEJpw7zE102eZA.png">
+    
+    <link rel="preload" href="/myvuepressblog/assets/css/0.styles.64ae094a.css" as="style"><link rel="preload" href="/myvuepressblog/assets/js/app.88b0dbf8.js" as="script"><link rel="preload" href="/myvuepressblog/assets/js/13.8591e43a.js" as="script"><link rel="prefetch" href="/myvuepressblog/assets/js/10.58d6e2ad.js"><link rel="prefetch" href="/myvuepressblog/assets/js/11.36cd05f0.js"><link rel="prefetch" href="/myvuepressblog/assets/js/12.64d7328c.js"><link rel="prefetch" href="/myvuepressblog/assets/js/14.8337e71b.js"><link rel="prefetch" href="/myvuepressblog/assets/js/15.4952dd5c.js"><link rel="prefetch" href="/myvuepressblog/assets/js/16.5f7b0c5f.js"><link rel="prefetch" href="/myvuepressblog/assets/js/17.e025cd42.js"><link rel="prefetch" href="/myvuepressblog/assets/js/18.62c1b75b.js"><link rel="prefetch" href="/myvuepressblog/assets/js/19.83c8fe8a.js"><link rel="prefetch" href="/myvuepressblog/assets/js/2.f50124f1.js"><link rel="prefetch" href="/myvuepressblog/assets/js/20.0098fc11.js"><link rel="prefetch" href="/myvuepressblog/assets/js/21.42152a9f.js"><link rel="prefetch" href="/myvuepressblog/assets/js/22.6ade9b2d.js"><link rel="prefetch" href="/myvuepressblog/assets/js/23.bde148d3.js"><link rel="prefetch" href="/myvuepressblog/assets/js/24.91193f58.js"><link rel="prefetch" href="/myvuepressblog/assets/js/25.4da5e2ef.js"><link rel="prefetch" href="/myvuepressblog/assets/js/26.b81927f9.js"><link rel="prefetch" href="/myvuepressblog/assets/js/27.a61f0f71.js"><link rel="prefetch" href="/myvuepressblog/assets/js/28.ca917e75.js"><link rel="prefetch" href="/myvuepressblog/assets/js/3.309a254b.js"><link rel="prefetch" href="/myvuepressblog/assets/js/4.00957c5d.js"><link rel="prefetch" href="/myvuepressblog/assets/js/5.dff57d58.js"><link rel="prefetch" href="/myvuepressblog/assets/js/6.f0fd88bd.js"><link rel="prefetch" href="/myvuepressblog/assets/js/7.12e241e7.js"><link rel="prefetch" href="/myvuepressblog/assets/js/8.89d7e728.js"><link rel="prefetch" href="/myvuepressblog/assets/js/9.7774f6bf.js">
+    <link rel="stylesheet" href="/myvuepressblog/assets/css/0.styles.64ae094a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/myvuepressblog/" class="home-link router-link-active"><!----> <span class="site-name">我的部落格</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/myvuepressblog/blog/" class="nav-link router-link-active">部落格</a></div><div class="nav-item"><a href="/myvuepressblog/about/" class="nav-link">關於我</a></div><div class="nav-item"><a href="https://github.com/stephenlai2018/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/myvuepressblog/blog/" class="nav-link router-link-active">部落格</a></div><div class="nav-item"><a href="/myvuepressblog/about/" class="nav-link">關於我</a></div><div class="nav-item"><a href="https://github.com/stephenlai2018/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/myvuepressblog/blog/" class="sidebar-link">我的部落格</a></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>電影頻道</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>物聯網</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>Youtube 教學</span> <span class="arrow right"></span></p> <!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading open"><span>精選課程</span> <span class="arrow down"></span></p> <ul class="sidebar-group-items"><li><a href="/myvuepressblog/blog/course/hexschool/nodejs.html" class="active sidebar-link">NodeJS 前後端開發實戰</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#express-node-js-web-應用程式架構" class="sidebar-link">Express - Node.js Web 應用程式架構</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#params-取得指定路徑" class="sidebar-link">params - 取得指定路徑</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#query-取得網址參數" class="sidebar-link">query = 取得網址參數</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#middleware-中介軟體-上" class="sidebar-link">middleware - 中介軟體 (上)</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#middleware-中介軟體-中" class="sidebar-link">middleware - 中介軟體 (中)</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#middleware-中介軟體-下" class="sidebar-link">middleware - 中介軟體 (下)</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#static-載入靜態檔案" class="sidebar-link">static - 載入靜態檔案</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#ejs-語言介紹" class="sidebar-link">EJS - 語言介紹</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#ejs-環境安裝" class="sidebar-link">EJS - 環境安裝</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#ejs-參數導入" class="sidebar-link">EJS - 參數導入</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#ejs-載入內容種類" class="sidebar-link">EJS - 載入內容種類</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#ejs-載入陣列" class="sidebar-link">EJS 載入陣列</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#ejs-設定-layout" class="sidebar-link">EJS 設定 Layout</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#postman-api-管理工具" class="sidebar-link">Postman - API 管理工具</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#postman-取得-get-資料-基礎操作" class="sidebar-link">Postman - 取得 get 資料, 基礎操作</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#body-parser-取得表單資料" class="sidebar-link">body-parser - 取得表單資料</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#redirect-跳轉頁面設定" class="sidebar-link">Redirect 跳轉頁面設定</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#使用-postman-傳送表單資訊" class="sidebar-link">使用 postman 傳送表單資訊</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#post-前後端介接原理" class="sidebar-link">POST 前後端介接原理</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#post-ajax-前後端介接原理" class="sidebar-link">POST AJAX 前後端介接原理</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#postman-post-ajax-json-格式講解" class="sidebar-link">Postman - POST AJAX JSON 格式講解</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#router-進階設定" class="sidebar-link">Router 進階設定</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#express-generator-上" class="sidebar-link">express-generator (上)</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#express-generator-下" class="sidebar-link">express-generator (下)</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#開發項目介紹" class="sidebar-link">開發項目介紹</a></li><li class="sidebar-sub-header"><a href="/myvuepressblog/blog/course/hexschool/nodejs.html#express-整合-firebase-流程" class="sidebar-link">Express 整合 Firebase 流程</a></li></ul></li></ul></li><li><a href="/myvuepressblog/blog/course/hexschool/rwd.html" class="sidebar-link">RWD 手機版網頁設計</a></li><li><a href="/myvuepressblog/blog/course/hexschool/git.html" class="sidebar-link">掌握 Git &amp; Github 程式時光機</a></li><li><a href="/myvuepressblog/blog/course/hexschool/javascript.html" class="sidebar-link">JavaScript 入門篇 - 學徒的試煉</a></li><li><a href="/myvuepressblog/blog/course/hexschool/jquery.html" class="sidebar-link">使用 jQuery 打造互動性網頁動畫效果</a></li><li><a href="/myvuepressblog/blog/course/hexschool/gulp.html" class="sidebar-link">使用 gulp 進行網頁前端自動化</a></li><li><a href="/myvuepressblog/blog/course/yotta/tweenmax.html" class="sidebar-link">JavaScript ＆ TweenMax 動態特效速成實戰</a></li><li><a href="/myvuepressblog/blog/course/hahow/rwd.html" class="sidebar-link">職人必修的 RWD 網頁入門班</a></li><li><a href="/myvuepressblog/blog/course/hiskio/vue.html" class="sidebar-link">精通 VueJS 前端開發完全指南</a></li></ul></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>作品集</span> <span class="arrow right"></span></p> <!----></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="nodejs-前後端開發實戰"><a href="#nodejs-前後端開發實戰" aria-hidden="true" class="header-anchor">#</a> NodeJS 前後端開發實戰</h1> <h2 id="express-node-js-web-應用程式架構"><a href="#express-node-js-web-應用程式架構" aria-hidden="true" class="header-anchor">#</a> Express - Node.js Web 應用程式架構</h2> <h3 id="params-取得指定路徑"><a href="#params-取得指定路徑" aria-hidden="true" class="header-anchor">#</a> params - 取得指定路徑</h3> <blockquote><p><em>params 是一個物件, 會自動取得網址列 ':' 之後的參數並且變成自己的屬性</em></p></blockquote> <p><strong>使用方式, 例如 :</strong></p> <ul><li>req.params (所有屬性)</li> <li>req.params.name (指定屬性)</li></ul> <p><strong>範例一</strong></p> <p><em>路徑 :</em></p> <p><code>localhost:8080/user/tom</code></p> <p><em>代碼 : 渲染 name 到指定路經</em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>app.get('/user/:name', (req, res) =&gt; {
+  res.send(req.params.name)
+})
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p><strong>範例二</strong></p> <p><em>路徑 :</em></p> <p><code>localhost:8080/tom/1013</code></p> <p><em>代碼 : 渲染 name 和 date</em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>app.get('/user/:name/:date', (req, res) =&gt; {
+  res.send(`
+    hello, ${req.params.name}, 今天是 ${req.params.date}
+  `)
+})
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><br> <h3 id="query-取得網址參數"><a href="#query-取得網址參數" aria-hidden="true" class="header-anchor">#</a> query = 取得網址參數</h3> <blockquote><p><em>query 是一個物件, 會自動取得網址列 '?' 之後的參數並且變成自己的屬性</em></p></blockquote> <p><strong>範例一 : 某某人的音樂列表, 抓前 10 筆</strong></p> <p><em>路徑 :</em></p> <p><code>localhost:8080/tom?limit=10</code></p> <p><em>代碼 :</em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>app.get('/user/:name/', (req, res) =&gt; {
+  const name = req.params.name
+  const limit = req.query.limit
+  res.send(`
+    ${name} 想要找 ${limit} 筆資料
+  `)
+})
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><br> <p><strong>範例二 : 某某人的音樂列表, 抓關鍵字是 hello 的前 10 筆資料</strong></p> <p><em>路徑 :</em></p> <p>localhost:8080/tom?limit=10&amp;q=hello</p> <p><em>代碼 :</em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>app.get('/user/:name/', () =&gt; {
+  const name = req.params.name
+  const limit = req.query.limit
+  const q = req.query.q
+  res.send(`
+    ${name} 想要找關鍵字叫做 ${q} 的前 ${limit} 筆資料 
+  `)
+})
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><br> <h3 id="middleware-中介軟體-上"><a href="#middleware-中介軟體-上" aria-hidden="true" class="header-anchor">#</a> middleware - 中介軟體 (上)</h3> <blockquote><p><em>Middleware 是 Express 一個很重要的題目, 類似守門員的概念</em></p></blockquote> <p><strong>代碼</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>app.use((req,res,next) =&gt; {
+  ....
+  next()
+})
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>next 函式會進入下一個門 (API), 如果沒有 next 函示網頁會卡住</p> <br> <p><strong>範例 : middleware 驗證資料, 通過後才進入首頁</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 守門員
+app.use((req, res, next) =&gt; {
+  console.log('有人進來囉')
+  next()
+})
+
+// 首頁
+app.get('/', (req, res) =&gt; {
+  res.send(`這是首頁`)
+})
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><br> <h3 id="middleware-中介軟體-中"><a href="#middleware-中介軟體-中" aria-hidden="true" class="header-anchor">#</a> middleware - 中介軟體 (中)</h3> <blockquote><p><em>網站一定要有 404 頁面 (查無此頁)</em></p></blockquote> <p><strong>範例</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>app.use((req, res, next) =&gt; {
+  res.status(404).send(`抱歉您的頁面找不到`))
+})
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><br> <blockquote><p><em>網站也要有 500 頁面 (程式錯誤)</em></p></blockquote> <p><strong>範例</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>app.use((err, req, res, next) =&gt; {
+  res.status(500).send(`程式有些問題, 請稍後嘗試`)
+})
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p><em><strong>404, 500 頁面通常置於 app.listen(port) 之前 (檔案最後)</strong></em></p> <br> <h3 id="middleware-中介軟體-下"><a href="#middleware-中介軟體-下" aria-hidden="true" class="header-anchor">#</a> middleware - 中介軟體 (下)</h3> <blockquote><p><em>我們可以把 middleware 獨立出來變成一個函示 (模組化)</em></p></blockquote> <p><strong>範例一</strong></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>// 中介函式
+const login = (req, res, next) =&gt; {
+  const _url = req.url
+  if (_url !== '/') {
+    next()
+  } else {
+    res.send(`您的登入資料有錯 !`)
+  }
+}
+
+// 路由函式
+const homePage = (req, res) =&gt; {
+  res.send(`這是首頁`)
+}
+
+app.use(login)
+app.get('/', homePage)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><br> <p><strong>範例二 : 更簡潔的寫法, 把中介軟體和路由函式同時變成參數傳入</strong></p> <p><code>app.get(路徑, 守門員, 頁面)</code></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>app.get('/', login, homePage)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p><br><br></p> <h3 id="static-載入靜態檔案"><a href="#static-載入靜態檔案" aria-hidden="true" class="header-anchor">#</a> static - 載入靜態檔案</h3> <p><strong>範例一 :</strong></p> <p><em>增加靜態檔案的路徑</em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>app.use(express.static('public'))
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p><strong>範例二 :</strong></p> <p><em>在首頁渲染出 logo (路徑 : /images/logo.png)</em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>const homePage = (req, res) =&gt; {
+  res.send(`
+    &lt;img src=&quot;/images/logo.png&quot;&gt;
+  `)
+}
+
+app.use(express.static('public'))
+
+app.get('/', homePage)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p><br><br></p> <h3 id="ejs-語言介紹"><a href="#ejs-語言介紹" aria-hidden="true" class="header-anchor">#</a> EJS - 語言介紹</h3> <p><em>EJS 是樣板語言, 類似的有 pug, handlebars 等. 樣板語言的好處是...</em></p> <h3 id="ejs-環境安裝"><a href="#ejs-環境安裝" aria-hidden="true" class="header-anchor">#</a> EJS - 環境安裝</h3> <p><code>npm i ejs-locals -S</code></p> <p><em>路徑 :</em></p> <ul><li><code>/views/index.ejs</code></li> <li><code>/views/user.ejs</code></li></ul> <p><strong>範例 :</strong></p> <p><em>EJS 初始化</em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>const engine = require('ejs-locals')
+
+app.engine('ejs', engine)
+app.set('views', './views')
+app.set('view engine', 'ejs')
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><br> <p><em>在 '/' 路徑下呼叫 index.js</em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>const homePage = (req, res) =&gt; {
+  res.render('index')
+}
+
+app.get('/', homePage)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ul><li>渲染 index.ejs <code>res.render(index)</code></li></ul> <br> <p><em>在 '/user' 路徑下呼叫 user.js</em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>const userPage = (req, res) =&gt; {
+  res.render('user')
+}
+
+app.get('/', userPage)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><br> <h3 id="ejs-參數導入"><a href="#ejs-參數導入" aria-hidden="true" class="header-anchor">#</a> EJS - 參數導入</h3> <p><strong>範例 : <em>後端傳物件資料到前端</em></strong></p> <p><em><strong>後端 :</strong></em></p> <p>在 <code>res.render()</code> 加入要傳送的資料 (物件)</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>const homePage = (req, res) =&gt; {
+  res.render('index', {'title': '六角學院'})
+}
+
+app.get('/', homePage)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><br> <p><em><strong>前端</strong></em></p> <p>使用 <code>&lt;%= %&gt;</code> 呈現資料</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;body&gt;
+  &lt;h1&gt;
+    &lt;%= title %&gt;
+  &lt;/h1&gt;
+&lt;/body&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><br> <h3 id="ejs-載入內容種類"><a href="#ejs-載入內容種類" aria-hidden="true" class="header-anchor">#</a> EJS - 載入內容種類</h3> <p><strong>範例 : <em>後端傳 html 資料到前端</em></strong></p> <p><em><strong>後端</strong></em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>res.render('index', {
+  'title': '&lt;h1&gt;六角學院&lt;/h1&gt;'
+})
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><br> <p><em><strong>前端</strong></em></p> <p>使用 <code>&lt;%- %&gt;</code> 呈現資料</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;%- title %&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><br> <p><strong>範例 : 使用 <code>&lt;% %&gt;</code> 做 javascript 邏輯運算</strong></p> <p><em><strong>後端</strong></em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>res.render('index', {
+  'show': true,
+})
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><br> <p><em><strong>前端</strong></em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;% if (show) %&gt;
+  &lt;span&gt;資料有呈現&lt;/span&gt;
+&lt;% } %&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><br> <h3 id="ejs-載入陣列"><a href="#ejs-載入陣列" aria-hidden="true" class="header-anchor">#</a> EJS 載入陣列</h3> <hr> <p><strong>範例 : 渲染 list item</strong></p> <p><em><strong>後端</strong></em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>const homePage = (req, res) =&gt; {
+  res.render('index', {
+    'courses': [
+      'html',
+      'css',
+      'javascript',
+      'php'
+    ]
+  })
+}
+
+app.get('/', homePage)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><br> <p><em><strong>前端</strong></em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;body&gt;
+  &lt;ul&gt;
+  &lt;% for(let i=0; courses.length&gt;i; i++) { %&gt;
+    &lt;li&gt;
+      &lt;%- courses[i] %&gt;
+    &lt;/li&gt;
+  &lt;% } %&gt;
+  &lt;/ul&gt;
+&lt;/body&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><br> <h3 id="ejs-設定-layout"><a href="#ejs-設定-layout" aria-hidden="true" class="header-anchor">#</a> EJS 設定 Layout</h3> <p><em><strong>除了保留 body 的內容, 其餘的變成 layout =&gt; <code>&lt;% layout('layout') %&gt;</code></strong></em></p> <p><em><strong>把共用的 <code>html</code> 標籤區塊 <code>(head)</code> 獨立出來成一個模組 <code>(layout.ejs)</code>, 在每個網頁頭部引入 <code>&lt;% layout('layout') %&gt;</code></strong></em></p> <p><code>/views/layout.ejs</code></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;Welcome to Glitch!&lt;/title&gt;
+    &lt;meta name=&quot;description&quot; content=&quot;A cool thing made with Glitch&quot;&gt;
+    &lt;link id=&quot;favicon&quot; rel=&quot;icon&quot; href=&quot;https://glitch.com/edit/favicon-app.ico&quot; type=&quot;image/x-icon&quot;&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;/style.css&quot;&gt;
+    &lt;script src=&quot;/client.js&quot; defer&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;%- body %&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><br> <p><code>/views/index.ejs</code></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;% layout('layout') %&gt; 
+
+&lt;h1&gt;&lt;%- title %&gt;&lt;/h1&gt;
+
+&lt;h2&gt;&lt;%= boss %&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;% for(var i=0; courses.length&gt;i; i++) { %&gt;
+  &lt;li&gt;&lt;%- courses[i] %&gt;&lt;/li&gt;
+&lt;% } %&gt;  
+&lt;/ul&gt;  
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><br> <p><code>/views/user.ejs</code></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;% layout('layout') %&gt;
+
+&lt;h1&gt;user page&lt;/h1&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><br> <h3 id="postman-api-管理工具"><a href="#postman-api-管理工具" aria-hidden="true" class="header-anchor">#</a> Postman - API 管理工具</h3> <p><em><strong>API 設計 - AJAX get, post 向後端傳遞資料</strong></em></p> <p>下載並安裝 Postman</p> <br> <h3 id="postman-取得-get-資料-基礎操作"><a href="#postman-取得-get-資料-基礎操作" aria-hidden="true" class="header-anchor">#</a> Postman - 取得 get 資料, 基礎操作</h3> <p>建立資料夾, 儲存網址</p> <br> <h3 id="body-parser-取得表單資料"><a href="#body-parser-取得表單資料" aria-hidden="true" class="header-anchor">#</a> body-parser - 取得表單資料</h3> <p><em><strong>把前端表單的資料傳送到後端</strong></em></p> <p><em>安裝 body-parser :</em> <code>npm i body-parser -S</code></p> <p><em><code>server.js</code> : 引入 body-parser :</em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>const bodyParser = require('body-parser')
+
+// 增加 body 解析
+app.use(bodyParser.json())
+
+// 解析表單資料
+app.use(bodyParser.urlencoded({extended: false}))
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><br> <p><em><strong>前端</strong></em> <code>search.ejs</code></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;form action=&quot;/searchList&quot; method=&quot;post&quot;&gt;
+  &lt;input type=&quot;text&quot; name=&quot;title&quot; value=&quot;&quot;&gt;
+  &lt;input type=&quot;text&quot; name=&quot;keyword&quot; value=&quot;&quot;&gt;
+  &lt;input type=&quot;submit&quot; name=&quot;&quot; value=&quot;送出&quot;&gt;
+&lt;/form&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p><em><strong>注意 :</strong></em></p> <ul><li>傳統表單的 form 標籤有 action 和 method 兩個屬性</li> <li>按下送出鍵傳送資料到後端伺服器網址</li> <li>action=&quot;/searchLIst&quot; : 資料要被傳送到 '/searchList' 網址</li> <li>method=&quot;post&quot;: 使用 post 方法傳送資料</li> <li>name 屬性的資料 &quot;title&quot; 和 &quot;keyword&quot; 是要被傳送到後端的資料 !!!</li></ul> <br> <p><em><strong>後端</strong></em> <code>server.js</code></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>const form = () =&gt; {
+  console.log(req.body)
+}
+
+// 使用者傳送資料到後端伺服器
+app.post('/searchList', form)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p><strong>req.body 是一個物件, 用來接收前端表單 input 標籤的 name 屬性傳來的資料</strong></p> <br> <h3 id="redirect-跳轉頁面設定"><a href="#redirect-跳轉頁面設定" aria-hidden="true" class="header-anchor">#</a> Redirect 跳轉頁面設定</h3> <p><em>轉址命令 :</em> <code>res.redirect(路徑/頁面)</code></p> <p><em>承上例, 表單輸入完成送出後轉址到 search 頁面</em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>const form = (req, res) =&gt; {
+  console.log(req.body)
+
+  // 轉址到 search.ejs
+  res.redirect('search')
+}
+app.post('/searchList', form)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><br> <h3 id="使用-postman-傳送表單資訊"><a href="#使用-postman-傳送表單資訊" aria-hidden="true" class="header-anchor">#</a> 使用 postman 傳送表單資訊</h3> <p><em>承上例 : 使用 Postman 傳送表單資料到後端伺服器</em></p> <p><strong>步驟</strong></p> <ul><li>建立並命名資料夾 : bodyParser-basic</li> <li>選擇 POST</li> <li>網址列輸入 : <code>https://bodyparser-basic.glitch.me/searchList</code></li> <li>點選 body</li> <li>選擇 x-www-form-urlencoded</li> <li>Key tab 輸入 title, Value tab 輸入 avengers</li> <li>Key tab 輸入 keywords, Value tab 輸入 super hero</li> <li>按下 Send 按鍵</li> <li>檢查後端的 Logs, 會印出 { title: 'avengers', keyword: 'super hero'}</li></ul> <br> <h3 id="post-前後端介接原理"><a href="#post-前後端介接原理" aria-hidden="true" class="header-anchor">#</a> POST 前後端介接原理</h3> <p><em>此章節省略, 傳送傳統表單</em></p> <h3 id="post-ajax-前後端介接原理"><a href="#post-ajax-前後端介接原理" aria-hidden="true" class="header-anchor">#</a> POST AJAX 前後端介接原理</h3> <p><em>使用 Ajax 在不跳轉頁面的情形下傳送資料</em></p> <p><em><strong>路由</strong></em> <code>/searchAJAX'</code></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>const formAJAX = (req, res) =&gt; {
+  res.send(`hello`)
+}
+
+app.post('/searchAJAX', formAJAX)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><br> <p><em><strong>建立 Postman API</strong></em></p> <p><strong>步驟</strong></p> <ul><li>在 bodyParser-basic 資料夾建立路由 : <code>https://bodyparser-basic.glitch.me/searchAJAX</code></li> <li>按下 Send 按鍵, 下面的 console 區塊顯示 'hello' 字串</li></ul> <br> <p><em><strong>在 search.ejs 增加 AJAX 表單</strong></em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>&lt;form&gt;
+  &lt;input type=&quot;text&quot; id=&quot;myKey&quot; value=&quot;&quot;&gt;
+  &lt;input type=&quot;submit&quot; id=&quot;send&quot; value=&quot;送出&quot;&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+const myKey = document.querySelector('#myKey')
+const send = document.querySelector('#send')
+
+send.addEventListener('click', e =&gt; {
+  e.preventDefault()
+
+  const keyword = myKey.value
+  
+  // 傳送資料到後端
+  fetch('/searchAJAX', {
+    method: 'post',
+    headers: {  
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({  
+      keyword,
+      fruit: [&quot;蘋果&quot;, &quot;香蕉&quot;, &quot;芭樂&quot;]
+    })
+  })
+  .then(res =&gt; res.json())
+  .then(data =&gt; console.log(data))
+}
+&lt;/script&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br></div></div><p><strong>注意 :</strong></p> <ul><li>form 標籤不需要 action 和 method 屬性</li> <li>input 標籤要加上 id, 讓我們能用 javascript 操作 DOM 元素</li> <li>input 標籤不需要 name 屬性</li></ul> <br> <p><em><strong>後端代碼</strong></em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>const form = (req, res) =&gt; {
+  console.log(req.body)
+  console.log(`搜尋的關鍵字 : ${req.body.keyword}`)
+  res.redirect('/search')
+}
+
+app.post('/searchAJAX', formAJAX)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><br> <p><em><strong>使用 postman 傳送資料</strong></em></p> <p><strong>步驟</strong></p> <ul><li>在 bodyParser-basic 資料夾建立網址 : <code>https://bodyparser-basic.glitch.me/searchAJAX</code></li> <li>按下 Send 按鍵</li> <li>下方 console 區會回傳 hello 字串</li></ul> <br> <h3 id="postman-post-ajax-json-格式講解"><a href="#postman-post-ajax-json-格式講解" aria-hidden="true" class="header-anchor">#</a> Postman - POST AJAX JSON 格式講解</h3> <p><em><strong>用 postman 模擬 json 格式</strong></em></p> <p><strong>步驟</strong></p> <ul><li>路徑 : https://bodyparser-basic.glitch.me/searchAJAX</li> <li>Body 標籤點選 raw</li> <li>選擇 JSON (application/json)</li> <li>textarea 寫 {&quot;keyword&quot;: &quot;哈利波特&quot;}</li> <li>按下 Send 按鈕, 下面 teatarea 出現 &quot;資料傳送成功 !&quot;</li></ul> <div class="tip custom-block"><p class="custom-block-title">TIP</p></div> <br> <h3 id="router-進階設定"><a href="#router-進階設定" aria-hidden="true" class="header-anchor">#</a> Router 進階設定</h3> <p><strong>把 server.js 的路由拆開成獨立的檔案 (模組化)</strong></p> <p><em><strong>建立兩個路由</strong></em></p> <ul><li><code>/user/edit-profile</code></li> <li><code>/user/photo</code></li></ul> <p><em><strong>server.js</strong></em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000
+
+const editProfile = (req, res) =&gt; {
+  res.send('profile')
+}
+const photo = (req, res) =&gt; {
+  res.send('photo')
+}
+ 
+app.get('/edit-profile', editProfile)
+app.get('/photo', photo)
+
+app.listen(port)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><br> <p><em><strong>建立 /routes/user.js, 把路由移到這裡</strong></em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>const express = require('express')
+const router = express.Router()
+
+const editProfile = (req, res) =&gt; {
+  res.send('profile')
+}
+
+const photo = (req, res) =&gt; {
+  res.send('photo')
+}
+ 
+router.get('/edit-profile', editProfile)
+
+router.get('/photo', photo)
+
+module.exports = router
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><br> <p><em><strong>server.js 變成這樣</strong></em></p> <div class="language- line-numbers-mode"><pre class="language-text"><code>const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000
+const user = require('./routes/user')
+
+app.use('/user', user)
+
+app.listen(port)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><br> <h3 id="express-generator-上"><a href="#express-generator-上" aria-hidden="true" class="header-anchor">#</a> express-generator (上)</h3> <p><em><strong>安裝 express-generator :</strong></em></p> <ul><li><code>npm i express-generator -g</code></li></ul> <p><em><strong>建立 firebase-nodejs 資料夾並安裝 ejs</strong></em></p> <ul><li><code>express --view=ejs firebase-nodejs</code></li></ul> <p><em><strong>進入 firebase-nodejs 資料夾, 安裝模組 (dependencies)</strong></em></p> <ul><li><code>npm i</code></li></ul> <br> <h3 id="express-generator-下"><a href="#express-generator-下" aria-hidden="true" class="header-anchor">#</a> express-generator (下)</h3> <hr> <p><em><strong>本章節省略</strong></em></p> <br> <h3 id="開發項目介紹"><a href="#開發項目介紹" aria-hidden="true" class="header-anchor">#</a> 開發項目介紹</h3> <hr> <p><em><strong>1. 後端設計 RESTful API</strong></em></p> <p><em><strong>2. SPA(single page application) todolist</strong></em></p> <br> <h3 id="express-整合-firebase-流程"><a href="#express-整合-firebase-流程" aria-hidden="true" class="header-anchor">#</a> Express 整合 Firebase 流程</h3> <hr> <p><em><strong>步驟</strong></em></p> <ul><li><p>安裝 firebase-admin 套件 : <code>npm firebase-admin -S</code></p></li> <li><p>開啟 Firebase console, 添加項目</p></li> <li><p>settings 選項選擇 &quot;項目設置&quot;</p></li> <li><p>選擇 &quot;服務帳號&quot; 標籤</p></li> <li><p>Admin SDK 配置代碼段 點選 Node.js, 複製 textarea 內的代碼</p></li> <li><p>將代碼貼到 server.js</p></li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>const admin = require(&quot;firebase-admin&quot;);
+
+const serviceAccount = require(&quot;path/to/serviceAccountKey.json&quot;);
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: &quot;https://fir-login-97eec.firebaseio.com&quot;
+});
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><ul><li><p>點擊 &quot;生成新的私鑰&quot;, 選擇儲存路徑 (根目錄下)</p></li> <li><p>const serviceAccount = require(&quot;/私鑰檔名&quot;)</p></li> <li><p>測試 database</p></li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>const fireData = admin.database()
+console.log(direData)
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div></div> <div class="page-edit"><!----> <!----></div> <!----> </div> <!----></div></div>
+    <script src="/myvuepressblog/assets/js/app.88b0dbf8.js" defer></script><script src="/myvuepressblog/assets/js/13.8591e43a.js" defer></script>
+  </body>
+</html>
